@@ -1,0 +1,86 @@
+# HTML FORM
+<DOCTYPE html>
+    <html lang="en">
+       <head>
+           <meta charset="UTF-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Assignment1</title>
+       </head>
+        <body>
+            <!-- This will consist of bio data -->
+          <h1>My Bio Data </h1>
+          <form action="" method="GET">
+           <fieldset>
+               <legend>Personal Information</legend>
+          <label for="FirstName">FirstName:</label>
+          <input type="text" placeholder="First Name" id="FirstName:" maxlength="50" required>
+          <label for="LastName">LastName :</label>
+          <input type="text" placeholder="Last Name" id="LastName :" maxlength="50" required>
+          <br>
+          <br>
+          <label for="Male:">Male:</label>
+          <input type="radio" name="gender" id="Male:" required>
+          <label for="Female:">Female:</label>
+          <input type="radio" name="gender" id="Female" required>
+          <label for="Other:">Other:</label>
+          <input type="radio" name="gender" id="Other" required>
+          <br>
+          <br>
+          Date Of Birth:
+          <input type="Date">   
+          <br>
+          <br>
+          Email:
+          <input type="email" placeholder="Enter your Email" id="Email" required>
+          <br>
+          <br>
+          Phone:
+          <input type="Phone" maxlength="10" placeholder="+91 (Max 10 digits)" required>
+          <br>
+          <br>
+          Height:
+          <input type="text" placeholder="Height in feet">
+          <br>
+          <br>
+          Address:
+          <input type="text" placeholder="Enter your Address here" size="70" maxlength="100" required>
+          <br>
+          <br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Education</legend>
+             <label for="SchoolName:">SchoolName:</label>
+            <input type="text" placeholder="School Name:" id="SchoolName" required>
+            <br>
+            <br>
+            Class:
+            <input type="number" placeholder=" Enter Class" required>
+            <br>
+            <br>
+            Stream:
+            <select Stream="" id=""> 
+            <option value="">Stream</option>
+            <option value="">Computer Science</option>
+            <option value="">IP</option>
+            <option value="">Commerce</option>
+            <option value="">Medical</option>
+            </select>
+            <br>
+            <br>
+            Marksheet:
+            <input type="file">
+            
+        </fieldset>
+        <br>
+        <br>
+        <input type="checkbox" required>
+          I agree with rules, terms and conditions written here.
+          <br>
+          <br>
+          <button>Submit</button>
+        </body>
+    </form>
+    
+</html>
